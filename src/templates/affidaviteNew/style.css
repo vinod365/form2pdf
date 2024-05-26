@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.affidavite {
+  padding: 60px;
+  padding-top: 420px;
+  background-color: white;
+}
+
+.affidavite h2 {
+  text-align: center;
+  font-family: "Lato";
+  font-size: 16px;
+}
+
+.affidavite p {
+  text-align: left;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Lato";
+}
+
+.affidavite ol {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato";
+  font-size: 18px;
+  gap: 30px;
+}
+
+.affidavite ol li {
+  text-align: left;
+  font-size: 18px;
+  font-family: "Lato";
+}
+
+.affidavite .footer-text {
+  text-align: right;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+
+.affidavite .varification-footer-text {
+  text-align: right;
+
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* .page-break {
+  page-break-after: always;
+  clear: both;
+  break-after: page;
+} */
+
+.page-break {
+  page-break-after: always;
+  clear: both;
+  break-after: page;
+}
+
+.affidavite .signature {
+  text-align: right;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.affidavite .signature img {
+  width: 150px;
+}
+
+.affidavite .imgs {
+  width: 400px;
+  margin-bottom: 40px;
+}

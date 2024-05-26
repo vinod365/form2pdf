@@ -1,0 +1,20 @@
+.image-uploader-container {
+  padding: 10px;
+}
+
+.image-uploader-container .image-uploader {
+  border: 1px dashed grey;
+  padding: 30px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+  height: 200px;
+}
+
+.image-uploader-container .image-uploader p {
+  color: grey;
+}
+
+.image-uploader-container .image-uploader img {
+  width: "100%";
+}

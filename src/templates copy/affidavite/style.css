@@ -1,0 +1,18 @@
+.affidavite {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* @media print {
+  .affidavite {
+    display: block;
+  }
+}
+@media screen {
+  .affidavite {
+    display: none;
+  }
+} */

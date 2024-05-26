@@ -1,0 +1,140 @@
+.form {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  width: 100%;
+  outline: 1px solid #c7b9b9;
+  padding: 20px;
+  border-radius: 5px;
+  /* background-color: #fefdfd; */
+}
+
+.form .left {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 0.5;
+  width: 100%;
+}
+
+.form .right {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 0.5;
+  width: 100%;
+}
+
+.form .btns {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.form input {
+  border-radius: 5px;
+  /* border: 1px solid #020c17; */
+  border: none;
+  width: 100%;
+  background: #f7f8f9;
+
+  cursor: pointer;
+
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+
+.form select {
+  border-radius: 5px;
+  /* border: 1px solid #020c17; */
+  border: none;
+  width: 100%;
+  background: #f7f8f9;
+  padding: 5px 10px;
+
+  cursor: pointer;
+}
+
+select {
+  /* reset */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #757575;
+
+  font-size: 16px;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  font-size: 16px;
+  color: black;
+}
+
+select:focus {
+  color: black;
+}
+
+.form input:focus {
+  outline: 1px solid #020c17;
+}
+
+.form select:focus {
+  outline: 1px solid #020c17;
+}
+
+.form .save-btn {
+  background-color: black;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form .clear-btn {
+  background-color: white;
+  width: 100%;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.image-uploader-form {
+  outline: 1px solid #c7b9b9;
+  padding: 15px;
+}
+
+.image-uploader-form .image-uploader-box {
+  align-items: flex-start;
+  width: 100%;
+
+  padding: 5px;
+  border-radius: 5px;
+
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.secondary-btn {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+
+  /* border-radius: 5px; */
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+@media (max-width: 600px) {
+  /* Add your CSS rules here */
+  .form {
+    flex-direction: column;
+  }
+}

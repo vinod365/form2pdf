@@ -1,0 +1,74 @@
+.poa {
+  padding: 60px;
+
+  background-color: white;
+}
+
+.poa h2 {
+  text-align: center;
+  font-family: "Lato";
+  font-size: 16px;
+}
+
+.poa .name {
+  padding-top: 100px;
+}
+
+.poa-attached-image {
+  width: 8.27in;
+  height: 10.5in;
+}
+
+.poa-attached-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.poa-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.poa p {
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.poa .date-and-firm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 100px;
+}
+
+.poa .date-and-firm .firmName {
+  text-align: right;
+}
+
+.poa .firmName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.poa .partners p {
+  text-align: right;
+}
+
+.poa .partners {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.poa .footer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
