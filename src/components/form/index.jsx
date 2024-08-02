@@ -159,6 +159,15 @@ export const Form = () => {
     setDirectorName(e);
   }
 
+  function handleClearStroage() {
+    localStorage.clear();
+    toast.success("Cache cleaned successfully");
+
+    setTimeout(() => {
+      window.location.reload();
+    }, 1000);
+  }
+
   return (
     <>
       {currentView === true && (
@@ -398,6 +407,26 @@ export const Form = () => {
                 Clear
               </button>
             </div>
+
+            <div
+              className="btns"
+              style={{
+                marginTop: "24px",
+              }}
+            >
+              <button className="clear-btn" onClick={handleClearStroage}>
+                Clear Cache
+              </button>
+            </div>
+            <p
+              style={{
+                fontSize: "10px",
+                color: "#757575",
+              }}
+            >
+              Clearing the cache will remove all stored files from the browser.
+              You can also clear the cache if you encounter any problem
+            </p>
           </div>
         </div>
       )}
